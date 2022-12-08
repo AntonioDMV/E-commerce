@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link rel="icon" href="./assets/images/favicon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-bar-logo">
+        <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+            <title>Academlo Logo</title>
+            <g>
+              <g>
+                <path
+                  d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+              </g>
+            </g>
+          </svg>  
+          <h2>Store</h2>
+      </div>
+      
+
+
+      <div class="icons-wrapper">
+        <i class='bx bx-moon bx-sm' id="theme-btn"></i>
+
+        <div class="cart-shop" id="cart-btn">
+            <i class='bx bx-shopping-bag bx-sm' ></i>
+            <span class="cart-counter" id="cart-counter">0</span>
+        </div>
+
+        <i class='bx bx-grid-alt bx bx-sm' id="menu-btn" ></i>
+      </div>
+    </nav>
+    <div class="menu-img">
+        <img class="imagen-menu" src="./assets/images/home.png" alt="">
+    </div>
+
+    <div class="prenda-menu-information">
+      <h3 class="titulo-prenda-inicial">New Sweatshirt COLLECTIONS 2022</h3>
+      <p class="parrafo-prenda"> 
+        Lastest arrival of the new Hanes Mideweight Crewneck Sweatshirt imported form the 2022 series, with a modern design.
+      </p>
+      <h3 class="precio-prenda">$14.00</h3>
+      <div class="boton-div">
+        <button class="boton-discover">
+          Discover
+        </button>
+        <button class="boton-add">
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </header>
+
+    <div class="information-sect ">
+      <div class="inf-content">
+        <h4 class="information-title">Show all</h4>
+        <span class="information-description">Show all products</span>
+      </div>
+      <div class="inf-content">
+        <h4 class="information-title">Hoddies</h4>
+      <span class="information-description">3 Productos</span>
+      </div>
+      <div class="inf-content">
+        <h4 class="information-title">Shirts</h4>
+        <span class="information-description">4 products</span>
+      </div>
+      <div class="inf-content">
+        <h4 class="information-title">Sweatshirts</h4>
+        <span class="information-description">4 products</span>
+      </div>
+   </div>
+
+   <div class="catalogo">
+      <article class="catalogo-product">
+        <div class="forma-producto">
+          <img class="img-catalogo" src="./assets/images/featured1.png" alt="">
+        </div>
+        <div class="data-product">
+          <h2 class="precio-product">$14.00</h2>
+          <h3 class="name-product">Hoodies</h3>
+        </div>
+      </article>
+      <article class="catalogo-product">
+        <div class="forma-producto">
+          <img class="img-catalogo" src="./assets/images/featured2.png" alt="">
+        </div>
+        <div class="data-product">
+          <h2 class="precio-product">$24.00</h2>
+          <h3 class="name-product">Shirts</h3>
+        </div>
+        </article>
+        <article class="catalogo-product">
+          <div class="forma-producto">
+            <img class="img-catalogo" src="./assets/images/featured3.png" alt="">
+          </div>
+          <div class="data-product">
+            <h2 class="precio-product">$24.00</h2>
+            <h3 class="name-product">Sweatshirts</h3>
+          </div>
+        </article>
+   </div>
+
+  <footer class="footer">
+    <div>
+      <h3 class="title-info">Our information </h3>
+      <p>Toluca - Mexico</p>
+    </div>
+    <div>
+      <h3 class="title-info">About Us</h3>
+      <div class="p-info">
+        <p>Support Center</p>
+        <p>Customer Support</p>
+        <p>About Us</p>
+        <p>Copy Right</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="title-info">Product</h3>
+      <div class="p-info">
+        <p>Hoodies</p>
+        <p>Shirts</p>
+        <p>Sweatshirts</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="title-info">Social</h3>
+      <div class= "social-icons">
+        <article>
+          <i class='bx bxl-facebook bx-sm'></i>
+        </article>
+        <article>
+          <i class='bx bxl-twitter bx-sm'></i>
+        </article>
+        <article>
+          <i class='bx bxl-instagram-alt bx-sm'></i>
+        </article>
+      </div>
+    </div>
+    <span class="text-final">ACADEMLO. All rights reserved</span>
+    </div>
+  </footer>
+
+
+<div class="cart-container hide" id="cart-container">
+    <div class="cart" id="cart">
+      <div class="cart-close" id="close-cart">
+            <i class='bx bx-x bx-md'></i>
+      </div>
+
+      <div id="cart-content">
+
+      </div>
+
+
+    </div>
+</div>
+    <!--========== Logo Academlo con contorno ==========-->
+    <!-- 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title>Academlo Logo</title>
+        <g>
+            <g>
+                <path
+                d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                </path>
+                <path
+                d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+            </g>
+        </g>
+    </svg>
+    -->
+
+    <!--=========== Logo Academlo sin contorno ==========-->
+    <!--
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title>Academlo Logo</title>
+        <g>
+          <g>
+            <path
+              d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+            </path>
+          </g>
+        </g>
+    </svg>
+    -->
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
